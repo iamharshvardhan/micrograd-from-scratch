@@ -4,7 +4,7 @@
 
 Micrograd is a tiny AutoGrad engine. It implements backpropogation (reverse order auto-differentiation) over a dynamically build small Neural Networks library on top of it with a PyTorch-like API (`micrograd.engine`).
 
-## Example usage
+### Example usage
 
 Below is a slightly contrived example showing a number of possible supported operations:
 ```
@@ -28,7 +28,7 @@ print(f'{a.grad:.4f}') # prints 138.8338, i.e. the numerical value of dg/da
 print(f'{b.grad:.4f}') # prints 645.5773, i.e. the numerical value of dg/db
 ```
 
-## Tracing / visualization
+### Tracing / visualization
 For added convenience, the notebook trace_graph.ipynb produces graphviz visualizations. E.g. this one below is of a simple 2D neuron, arrived at by calling draw_dot on the code below, and it shows both the data (left number in each node) and the gradient (right number in each node).
 
 ```
