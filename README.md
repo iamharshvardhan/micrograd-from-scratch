@@ -2,7 +2,7 @@
 
 <img src="https://img.freepik.com/premium-photo/beautiful-baby-dog_943963-407.jpg" alt=puppy>
 
-Micrograd is a tiny AutoGrad engine. It implements backpropogation (reverse order auto-differentiation) over a dynamically build small Neural Networks library on top of it with a PyTorch-like API (`micrograd.engine`).
+Micrograd is a tiny AutoGrad engine (with a bite). It implements backpropogation (reverse order auto-differentiation) over a dynamically build small Neural Networks library on top of it with a PyTorch-like API (`micrograd.engine`).
 
 ### Example usage
 
